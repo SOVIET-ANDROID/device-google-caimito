@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, $(DEVICE_PATH)/device-lineage.mk)
+$(call inherit-product, $(DEVICE_PATH)/device-yaap.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/$(DEVICE_CODENAME)/overlay-lineage
 
